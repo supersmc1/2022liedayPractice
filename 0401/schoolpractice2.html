@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{margin:0;padding:0;}
+    
+    .mobile{
+      width: 100vw;
+      height: 100vh;
+      border: 1px solid black;
+      list-style-type:none;
+    }
+    .mobile>div:nth-child(1){
+      width: 100vw;
+      height: 10vh;
+      background-color: red;
+    }
+    .list{
+      width: 100vw;
+      height: 10vh;
+      background-color: lightcoral;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .main{
+      width: 100vw;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border: 1px solid black;
+    }
+    .main>div:nth-child(1){
+      width: 50vw;
+      height: 50vw;
+      border: 1px solid black;
+      border-radius: 50%;
+      
+    }
+    .main>div:nth-child(2){
+      width: 40vw;
+      height: 5vh;
+      border: 1px solid black;
+      margin-top:80px ;
+    }
+
+    .bottom{
+      width: 100vw;
+      height: 30vh;
+      background-color: lightcoral;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .bottom>div{
+      width: 80vw;
+      height: 20vh;
+      background-color: aliceblue;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+      
+    
+  </style>
+</head>
+<body>
+  <div class="mobile">
+    <div></div>
+    <div class="list">
+      <li>메뉴바</li>
+      <li>메뉴바</li>
+      <li>메뉴바</li>
+      <li>메뉴바</li>
+    </div>
+    <div class="main">
+      <div>이미지</div>
+      <div><h1>STAR-CHEF</h1></div>
+    </div>
+    <div class="bottom">
+      <div><p>lorem itsum<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt libero nemo iste impedit quam omnis repudiandae suscipit fugit. Delectus in nulla distinctio iusto dicta placeat, autem ratione natus officia ipsa.</p></div>
+    </div>
+
+
+  </div>
+</body>
+</html>
